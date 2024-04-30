@@ -99,7 +99,7 @@ def visualize_results_with_background(infected_person_path, students_data, infec
     plt.show()
 
 # Specify the path to your background image
-background_image_path = '/Users/jesseman/Documents/Contact Tracing/VITimage.jpg'  # Replace with the actual path to your image
+background_image_path = '/Users/jesseman/Documents/contact tracing using kd tree/VITimage.jpg'  # Replace with the actual path to your image
 
 infected_students = contact_tracing(infected_person_path, students_data, THRESHOLD_DISTANCE)
 
